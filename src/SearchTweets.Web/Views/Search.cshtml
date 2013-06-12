@@ -1,0 +1,20 @@
+﻿@inherits ViewPage<SearchTweets.Service.SearchResponse>
+@{
+    ViewBag.Title = "Search Results";
+    Layout = "Layout";
+}
+<div>
+    <table class="table">
+  
+        @foreach (var tweet in Model.Results)
+        {
+            <tr>
+                <td>@tweet.UserName</td>
+                <td><img src="@tweet.UserImage" class="img-polaroid"/></td>
+                <td>@tweet.Text</td>     
+                <      
+            </tr>
+        }
+    <
+</table>
+</div>
