@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using SearchTweets.Domain;
+using SearchTweets.Model;
 using SearchTweets.Repository;
 using ServiceStack.ServiceInterface;
 

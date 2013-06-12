@@ -146,8 +146,8 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Repository\TwitterContextFactory.cs" />
-    <Compile Include="Service\SearchRequest.cs" />
-    <Compile Include="Service\SearchResponse.cs" />
+    <Compile Include="Model\SearchRequest.cs" />
+    <Compile Include="Model\SearchResponse.cs" />
     <Compile Include="Service\SearchService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\TwitterRepository.cs" />
